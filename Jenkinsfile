@@ -13,7 +13,7 @@ pipeline{
                 }
                 stage(deploy){
                         steps{
-                        cp target/Project9.war /home/mitali/Documents/devops/apache-tomcat-9.0.93/webapps
+                        sh 'cp target/Project9.war /home/mitali/Documents/devops/apache-tomcat-9.0.93/webapps'
                         }
                 }
                 }
