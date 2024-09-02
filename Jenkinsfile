@@ -13,6 +13,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		    steps {
-			sh 'cp target/Project9.war //home/shiro/demoslavedir/apache-tomcat-9.0.93/webapps'
+			sh 'cp target/Project9.war /home/shiro/demoslavedir/apache-tomcat-9.0.93/webapps'
 			}}	
 }}
